@@ -96,7 +96,7 @@ const discord = {
             await discord.page.waitFor(10000);
 
             async function initalStart () {
-                await discord.page.type('span[data-slate-object="text"]', "auto typer started.", {
+                await discord.page.type('span[data-slate-object="text"]', "Hello.", {
                     delay: 100
                 });
 
@@ -125,7 +125,7 @@ const discord = {
 
             // change the first number for minutes
             // 3 * 60 * 1000 = 180000ms === 3 minutes
-            setInterval(randomWord, delay * 60 * 1000)
+            setInterval(randomWord, delay 3)
 
     }
 }
